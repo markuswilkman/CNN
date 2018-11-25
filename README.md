@@ -10,7 +10,7 @@ Script is done in Python 3.6 with Theano 1.0. The cifar dataset should be in fol
 
 The CNN is implemented in Python, using Theano. The performance is measured with different CNNs, differing in depth (number of convolutional layers before the fully connected layer). 
 
-Grid search can be perfomed to to obtain the best learning rate (α) and depth of convolutional layers. 
+Grid search can be perfomed to to obtain the best learning rate (α), size of minibatch and depth of convolutional layers. 
 
 Some intermediate steps are printed along with the final confidence matrix. 
 
